@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1349</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="back">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>1531</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Img/2.0.png);
+background-image : center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Submit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>330</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 16pt &quot;Segoe UI&quot;;
+    background-color: #007bff; /* Set the background color */
+    color: #ffffff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Set font size */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+QPushButton:pressed {
+    background-color: #004080; /* Darken background color on press */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>390</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> 
+background-color: #dc3545; /* Set the background color to red */
+    color: #ffffff; /* Set text color to white */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Make font bold */
+</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="select">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: #ffffff; /* Set the background color */
+    border: 1px solid #cccccc; /* Add a border */
+    border-radius: 5px; /* Add border radius */
+    padding: 5px; /* Add padding */
+    min-width: 100px; /* Set minimum width */
+QComboBox::item {
+    padding: 5px; /* Add padding to the items */
+}
+
+/* Apply styles to the selected item */
+QComboBox::item:selected {
+    background-color: #007bff; /* Set the background color of the selected item */
+    color: #ffffff; /* Set the text color of the selected item */
+}
+
+/* Apply styles to the arrow icon */
+QComboBox::down-arrow {
+    image: url(down_arrow.png); /* Set the image for the arrow icon */
+    width: 10px; /* Set the width of the arrow icon */
+    height: 10px; /* Set the height of the arrow icon */
+}</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Img/number-1_9180563.png</file>
+        <file>Img/number-2_6422821.png</file>
+        <file>Img/number-3.png</file>
+        <file>Img/number-4.png</file>
+        <file>Img/number-5.png</file>
+        <file>Img/choice-17-16.png</file>
+        <file>Img/2.png</file>
+        <file>Img/secwin.png</file>
+        <file>Img/number-six-13222.png</file>
+        <file>Img/number-10.png</file>
+        <file>Img/number-8.png</file>
+        <file>Img/number-9.png</file>
+        <file>Img/Eo_circle_blue_number-7.svg.png</file>
+    </qresource>
+    <qresource prefix="/baack"/>
+    <qresource prefix="/">
+        <file>Img/2.0.png</file>
+    </qresource>
+    <qresource prefix="/back"/>
+</RCC>
